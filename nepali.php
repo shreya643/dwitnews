@@ -35,9 +35,9 @@ include "include/header.php";
         <div class="row blue-border-top">
 
             <div class="col-md-12" >
-                <div class="posts">
+                <div class="card" id="posts">
                     <div class="row " id="latest-news">
-                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="img-thumbnail"></div>
+                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="small-image"></div>
                         <div class="col-md-7">
                             <h3><a href="#" class="posts-title">Title</a></h3>
                             <p class="published-date"> 2018/07/08</p>
@@ -46,7 +46,7 @@ include "include/header.php";
                         </div>
                     </div>
                     <div class="row" id="latest-news">
-                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="img-thumbnail"></div>
+                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="small-image"></div>
                         <div class="col-md-7">
                             <h3><a href="#" class="posts-title">Title</a></h3>
                             <p class="published-date"> 2018/07/08</p>
@@ -55,7 +55,7 @@ include "include/header.php";
                         </div>
                     </div>
                     <div class="row" id="latest-news">
-                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="img-thumbnail"></div>
+                        <div class="col-md-4 image-overflow"> <img src="images/deerwalk-premises.jpg" class="small-image"></div>
                         <div class="col-md-7">
                             <h3><a href="#" class="posts-title">Title</a></h3>
                             <p class="published-date"> 2018/07/08</p>
@@ -75,3 +75,4 @@ include "include/header.php";
 <?php
 include "include/footer.php";
 ?>
+

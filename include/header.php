@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fa/css/fontawesome-all.min.css">
@@ -40,7 +40,7 @@
     <div class="row">
         <div class="col-md-12 col-lg-12 col-xl-12 col-12">
                 <div class="nav-image text-center">
-                    <img src="images/dwit-news-logo.png">
+                    <img src="images/dwit-news-logo.png" id="logo">
                     <span class="date"><strong><?php echo date("D, d M, Y");?></strong></span>
                </div>
                 <div class="navbar-button">
@@ -63,9 +63,6 @@
                         <a href="opinion.php">Opinion</a>
                     </li>
                     <li>
-                        <a href="#">Health</a>
-                    </li>
-                    <li>
                         <a href="review.php">Review</a>
                     </li>
                     <li>
@@ -79,6 +76,9 @@
                     </li>
                     <li>
                         <a href="technology.php">Technology</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.php">About Us</a>
                     </li>
                     <li>
                         <a href="#">Contact Us</a>

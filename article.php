@@ -11,11 +11,13 @@ include "include/header.php";
 <section>
     <div class="container">
         <div class="row" id="main">
-            <div class="col-md-9">
+            <div class="col-md-9 card" id="article">
+                <div class="blue-border-bottom">
                     <p class="category">Events</p>
                     <p class="category-title">Lorem ipsum dolor sit amet, an indoctum</p>
                     <p class="published-date"> 2018/07/08</p>
                     <p class="author">By <a>Author</a></p>
+                </div>
                     <div class="image-overflow">
                         <img src="./images/deerwalk-premises.jpg" class="image">
                     </div>
@@ -31,7 +33,9 @@ include "include/header.php";
                         Et nam graeci oportere. Vel te summo latine theophrastus. Mazim putent debitis vis eu, eum at graece doming posidonium. Per eu verterem pericula laboramus, tation veniam pro ut. In semper dicunt concludaturque cum, dicta option neglegentur at duo. At rebum utinam intellegebat eum.
 
                     </p>
-
+                    <div class="share">
+                        <span class="fa fa-facebook-f"></span>
+                    </div>
 
             </div>
             <div class="col-md-3">
@@ -41,11 +45,9 @@ include "include/header.php";
                         <ul class="blue-border-top blue-border-bottom">
                             <li>
                                 <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                                <p class="author">By <a>Author</a></p>
                             </li>
                             <li>
                                 <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                                <p class="author">By <a>Author</a></p>
                             </li>
 
                         </ul>
@@ -57,11 +59,9 @@ include "include/header.php";
                         <ul class="blue-border-top blue-border-bottom">
                             <li>
                                 <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                                <p class="author">By <a>Author</a></p>
                             </li>
                             <li>
                                 <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                                <p class="author">By <a>Author</a></p>
                             </li>
 
                         </ul>
