@@ -5,6 +5,8 @@ header{position: fixed; width: 100%; height:auto; top:0;transition: 0.2s; z-inde
 .navbar-item li{display: inline-block;}
 .container-header {max-width: 1024px; height: auto; margin: 0 auto;}
 .date{ position: absolute; right: 16px; bottom: 0;}
+.social{position: absolute;right: 8px;}
+.social-btn{margin: 2px; color: #4e555b }
 .navbar-item li a{padding:8px 20px; display: inline-block; color:#333; text-decoration: none}
 .navbar-item li a:hover{background-color: rgba(220,222,222,0.41); padding: 8px 20px; text-decoration:none;}
  .navbar-button{background-color:rgba(220,222,222,0.41); display: none; margin:2% ;cursor: pointer}
@@ -16,6 +18,7 @@ header{position: fixed; width: 100%; height:auto; top:0;transition: 0.2s; z-inde
     .navbar-item li a{padding:5px 465px 5px 5px; display: inline-block;}
     .navbar-item li a:hover{padding:5px 465px 5px 5px}
     .white-border-bottom{border-bottom: 1px solid #0f5288!important;}
+
 }
 #main-post{ overflow: hidden; height: auto; padding: 2%; margin-bottom: 5px;}
 #editors-choice{overflow: hidden; padding:5%; margin-bottom:10px;}
@@ -35,12 +38,13 @@ header{position: fixed; width: 100%; height:auto; top:0;transition: 0.2s; z-inde
 @media (min-width: 401px),(max-width: 768px) {
     #main{padding-top:22%!important; margin-top:10%}
     #editors-choice{padding-top: 5%}
-    #main-post{padding-top:1%}
+    #main-post{padding-top:1%; margin-top: 44px;}
 
 }
 @media (min-width: 768px),(max-width: 1024px) {
     .video-small{height: 185px; width: auto; }
     #main{padding-top:10%!important; margin-top:10%}
+    #main-post{margin-top: 0;}
 }
 @media (max-width: 400px) {
 #main{padding-top:25%; padding-left: 5%; margin-top:15%}
@@ -52,6 +56,7 @@ header{position: fixed; width: 100%; height:auto; top:0;transition: 0.2s; z-inde
 @media(min-width: 1200px)  {
     #main{padding-top:2%!important; margin-top: 8%!important;}
     #video{padding-left: 20px;}
+    .social{ bottom: 34px}
 }
 @media (max-width: 767px) {
     .video-small{padding:29px; width:100%; height:auto ;cursor: pointer; transition: ease all 700ms;}
@@ -79,3 +84,5 @@ header{position: fixed; width: 100%; height:auto; top:0;transition: 0.2s; z-inde
 #about-us{ margin-bottom:5px; padding-top:10px;}
 .small-image{width: 100%; height: auto;border-radius:0.25rem;margin-top: 20px}
 #posts{margin-bottom:10px; margin-top: 10px}
+.share{float: right!important;display:block}
+.article{padding-top: 15px;}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fa/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -42,6 +43,10 @@
                 <div class="nav-image text-center">
                     <img src="images/dwit-news-logo.png" id="logo">
                     <span class="date"><strong><?php echo date("D, d M, Y");?></strong></span>
+                    <span class="social">
+                        <a href="https://www.facebook.com/dwitnews/" class="social-btn"  target="_blank"><i class="fa fa-facebook-square" style="font-size: 34px"></i></a>
+                        <a href="https://www.youtube.com/channel/UCkyucMwCIBSqOV_oFHcq9cg" class="social-btn"  target="_blank"><i class="fa fa-youtube-square" style="font-size: 34px"></i></a>
+                    </span>
                </div>
                 <div class="navbar-button">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" id="#content-navbar" data-target=".navbar-content"> <i class="material-icons">&#xe5d2;</i></button>
@@ -80,10 +85,6 @@
                     <li>
                         <a href="aboutus.php">About Us</a>
                     </li>
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-
                 </ul>
             </div>
         </div>

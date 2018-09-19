@@ -14,11 +14,11 @@
                 <div class="row">
                     <div class="offset-md-3"></div>
                     <div class="col-md-6 text-center">
-                        <p>
-                            <a href="aboutus.php">About us</a>| Email:<strong>dwitnews@deerwalk.edu.np</strong> | Facebook:<a href="https://www.facebook.com/dwitnews/">DWIT News</a>
-
-                        </p>
-                        &copy;<?php echo date("Y");?>
+<!--                        <p>-->
+<!--                            <a href="aboutus.php">About us</a>| Email:<strong>dwitnews@deerwalk.edu.np</strong> | Facebook:<a href="https://www.facebook.com/dwitnews/">DWIT News</a>-->
+<!---->
+<!--                        </p>-->
+                        Copyright &copy;<?php echo date("Y");?> DWIT News. All Rights Reserved.
                     </div>
                     <div class="offset-md-3"></div>
                 </div>

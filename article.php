@@ -11,9 +11,16 @@ include "include/header.php";
 <section>
     <div class="container">
         <div class="row" id="main">
-            <div class="col-md-9 card" id="article">
+            <div class="offset-1 col-md-10 card offset-1" id="article">
                 <div class="blue-border-bottom">
                     <p class="category">Events</p>
+                    <div class="share">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=URLENCODED_URL&t=TITLE"
+                           onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+                           target="_blank" title="Share on Facebook">
+                            <span class="fa fa-facebook-f" style="font-size: 25px"></span>
+                        </a>
+                    </div>
                     <p class="category-title">Lorem ipsum dolor sit amet, an indoctum</p>
                     <p class="published-date"> 2018/07/08</p>
                     <p class="author">By <a>Author</a></p>
@@ -33,41 +40,7 @@ include "include/header.php";
                         Et nam graeci oportere. Vel te summo latine theophrastus. Mazim putent debitis vis eu, eum at graece doming posidonium. Per eu verterem pericula laboramus, tation veniam pro ut. In semper dicunt concludaturque cum, dicta option neglegentur at duo. At rebum utinam intellegebat eum.
 
                     </p>
-                    <div class="share">
-                        <span class="fa fa-facebook-f"></span>
-                    </div>
 
-            </div>
-            <div class="col-md-3">
-                <div class="card"   id="editors-choice">
-                    <div class="choice">
-                        <p class="column text-center"> Editor's Column</p>
-                        <ul class="blue-border-top blue-border-bottom">
-                            <li>
-                                <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                            </li>
-                            <li>
-                                <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="card" id="popular-post">
-                    <div class="choice">
-                        <p class="column text-center"> Popular Post</p>
-                        <ul class="blue-border-top blue-border-bottom">
-                            <li>
-                                <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                            </li>
-                            <li>
-                                <a href="#"><h5> Lorem ipsum dolor sit amet, an indoctum aliquando arg</h5></a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
 
             </div>
         </div>

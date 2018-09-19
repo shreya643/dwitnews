@@ -9,7 +9,7 @@ include "include/header.php";
 ?>
 <section>
     <div class="container">
-        <div class="row blue-border-bottom" id="main">
+        <div class="row " id="main">
             <div class="col-md-8">
                 <div class="card" id="main-post" >
                     <p class="category"><a href="events.php">Events</a></p>
@@ -60,7 +60,7 @@ include "include/header.php";
     <div class="row" >
         <div class="col-md-12">
             <div>
-                <p class="column text-center ">College Videos</p>
+                <p class="column text-center">College Videos</p>
 
             </div>
         </div>
@@ -92,7 +92,7 @@ include "include/header.php";
     </div>
     </div>
     <div class="container">
-        <div class="row blue-border-top">
+        <div class="row ">
          <div class="col-md-12" >
              <div>
                  <p class="column text-center ">Latest News</p>
