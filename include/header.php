@@ -41,11 +41,11 @@
     <div class="row">
         <div class="col-md-12 col-lg-12 col-xl-12 col-12">
                 <div class="nav-image text-center">
-                    <img src="images/dwit-news-logo.png" id="logo">
+                    <a href="index.php"><img src="images/dwit-news-logo.png" id="logo"></a>
                     <span class="date"><strong><?php echo date("D, d M, Y");?></strong></span>
                     <span class="social">
-                        <a href="https://www.facebook.com/dwitnews/" class="social-btn"  target="_blank"><i class="fa fa-facebook-square" style="font-size: 34px"></i></a>
-                        <a href="https://www.youtube.com/channel/UCkyucMwCIBSqOV_oFHcq9cg" class="social-btn"  target="_blank"><i class="fa fa-youtube-square" style="font-size: 34px"></i></a>
+                        <a href="https://www.facebook.com/dwitnews/" class="social-btn1"  target="_blank"><i class="fa fa-facebook-square" style="font-size: 34px"></i></a>
+                        <a href="https://www.youtube.com/channel/UCkyucMwCIBSqOV_oFHcq9cg" class="social-btn2"  target="_blank"><i class="fa fa-youtube-square" style="font-size: 34px"></i></a>
                     </span>
                </div>
                 <div class="navbar-button">
